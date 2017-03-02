@@ -1,0 +1,312 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.heder-bg {
+    background:url(../images/header-bg.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+
+.monserat-bold-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.monserat-regular-font {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.kaushanscript-font {
+    font-family: 'Kaushan Script', cursive; 
+}
+
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.white-font {
+    color: white;
+}
+
+.logo {
+    color: white;
+    margin-top: 29px;
+    font-size: 150%;
+    float: left;
+}
+
+.nav {
+    float: right;
+     margin-top: 39px;
+    font-size: 80%;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+.nav li {
+    float: left;
+    margin-left: 55px;
+    
+    
+}
+
+.nav a {
+    padding: 0px !important;
+   
+    display: block;
+    color: inherit;
+    padding-bottom: 11px !important;
+   
+}
+
+.nav a:hover {
+    color: yellow  !important;
+    border-bottom: 2px solid yellow !important;
+    background-color: transparent !important;
+}
+
+
+
+
+.nav .magnyfying {
+    
+    width: 18px;
+    height: 16px;
+    background: url(../images/MAGNIFYING-GLASS-LOGO.png) no-repeat;
+    content: '';
+    color: yellow;
+}
+
+.nav .shopping {
+    
+    width: 18px;
+    height: 16px;
+    background: url(../images/SHOPPING-CART-LOGO.png) no-repeat;
+    content: '';
+}
+
+.nav .no-underline a:hover {
+    border-bottom: 0px white !important;
+    
+}
+
+
+.main-logo {
+    height: 936px;
+    
+}
+
+.uppercase-and-big {
+    text-transform: uppercase;
+    font-size: 150px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.main-logo-text{
+    
+    width: 802px;
+    height: 247px;
+	
+	position:absolute;
+    top: 358px;
+    left:50%;
+    margin-left:-401px;/* half width*/
+	
+    
+    line-height: 0.933;
+    margin-bottom: 0 !important;
+    
+}
+
+.second-main-text{
+    width: 516px;
+    height: 62px;
+    
+    font-size: 72px;
+    position: absolute;
+    
+    top:234px;
+    left:50%;
+	margin-left:-258px;/* half width*/
+    
+    line-height: 100%;
+}
+
+.hline{
+    width: 60px;
+    height: 3px;
+    background: white;
+    top: 677px;
+    left: 50%;
+    margin-left:-30px;/* half width*/
+    position: absolute;
+}
+
+.hline-red{
+    width: 60px;
+    height: 3px;
+    background: red;
+    
+    
+   
+}
+
+.lern-more-field{
+    font-size: 14px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 2px;
+    
+    width: 160px;
+    height: 40px;
+    
+    top: 730px;
+    left: 50%;
+    margin-left:-80px;/* half width*/
+    position: absolute;
+    
+    
+}
+
+.lern-more-field p{
+    margin-top: 7px;
+}
+
+.down-menu {
+    
+    float: left;
+    font-size: 80%;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 0px !important;
+    padding-left: 0px !important;
+    
+    position: absolute;
+    bottom: 20px;
+    
+}
+
+.down-menu li {
+    float: left;
+    margin-right: 30px;
+    width: 270px;
+    font-size: 18px;
+    
+    
+}
+
+.down-menu a {
+    padding: 0px !important;
+    outline: 0;
+   
+    display: block;
+    color: inherit;
+    padding-top: 23px !important;
+    text-decoration: none;
+    border-top: 3px solid white !important;
+    opacity: 0.5;
+   
+}
+
+.down-menu a:hover {
+    color: yellow  !important;
+    background-color: transparent !important;
+    text-decoration: none;
+}
+
+.activeted{
+    opacity: 1 !important;;
+}
+
+
+.text-24px{
+    font-size: 24px;
+}
+
+.second-part {
+    height: 750px;
+}
+
+.what-we-do-text{
+    
+    
+    top: 37px;
+    left: 50%;
+    margin-left:-69.53px;/* half width*/
+    position: absolute;
+    
+}
+
+.what-we-do-text2{
+    margin-top: 92px;
+    
+}
+
+.story-about-us-text {
+    text-transform: uppercase;
+    padding-bottom: 39px;
+    
+}
+
+.lorem-text {
+    color: #999999;
+    font-size: 15px;
+    line-height: 1.6;
+    padding-top: 45px;
+    padding-bottom: 103px;
+}
+
+.mol{
+    width: 380px !important;
+  margin-right: 15px;
+    padding: 0px !important;
+}
+
+
+.mol:last-child{
+  margin-right: 0px;
+}
+
+.back-image{
+    position: absolute;
+    z-index: -1;
+    
+}
+
+
+.top-image{
+    position: absolute;
+    z-index: 2;
+    top: -10px;
+    right: 10px;
+
+    
+}
+
+.top-text{
+    
+    z-index: 5;
+    position: absolute;
+    top: 106px;
+    left: 50%;
+    margin-left:-79.53px;/* half width*/
+}
+
+.top-icon {
+    position: absolute;
+    z-index: 8;
+    
+    top: 94px;
+    left: 50%;
+    margin-left:-16px;/* half width*/
+}
