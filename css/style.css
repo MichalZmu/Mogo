@@ -96,11 +96,6 @@ html {
 }
 
 
-.main-logo {
-    height: 936px;
-    
-}
-
 .uppercase-and-big {
     text-transform: uppercase;
     font-size: 150px;
@@ -111,31 +106,16 @@ html {
 }
 
 .main-logo-text{
-    
-    width: 802px;
-    height: 247px;
-	
-	position:absolute;
-    top: 358px;
-    left:50%;
-    margin-left:-401px;/* half width*/
-	
-    
+    margin-top: 50px;    
     line-height: 0.933;
     margin-bottom: 0 !important;
     
 }
 
 .second-main-text{
-    width: 516px;
-    height: 62px;
     
     font-size: 72px;
-    position: absolute;
-    
-    top:234px;
-    left:50%;
-	margin-left:-258px;/* half width*/
+    margin-top:234px;
     
     line-height: 100%;
 }
@@ -143,16 +123,15 @@ html {
 .hline{
     width: 60px;
     height: 3px;
+    margin-top: 71px;
+    
     background: white;
-    top: 677px;
-    left: 50%;
-    margin-left:-30px;/* half width*/
-    position: absolute;
+
 }
 
 .hline-red{
     width: 60px;
-    height: 3px;
+    height: 3px !important;
     background: red;
     
     
@@ -168,10 +147,8 @@ html {
     width: 160px;
     height: 40px;
     
-    top: 730px;
-    left: 50%;
-    margin-left:-80px;/* half width*/
-    position: absolute;
+    margin-top: 50px;
+    
     
     
 }
@@ -182,16 +159,17 @@ html {
 
 .down-menu {
     
-    float: left;
-    font-size: 80%;
+    
     text-transform: uppercase;
     color: white;
     text-decoration: none;
     list-style-type: none;
-    margin-bottom: 0px !important;
+    margin-top: 126px !important;
     padding-left: 0px !important;
+    font-size: 18px;
     
-    position: absolute;
+  
+    
     bottom: 20px;
     
 }
@@ -199,19 +177,20 @@ html {
 .down-menu li {
     float: left;
     margin-right: 30px;
-    width: 270px;
+    width: 260px;
     font-size: 18px;
     
     
 }
 
-.down-menu a {
-    padding: 0px !important;
+.down-menu-one {
     outline: 0;
+    padding-right: -30px;
    
     display: block;
     color: inherit;
     padding-top: 23px !important;
+    margin-bottom: 10px;
     text-decoration: none;
     border-top: 3px solid white !important;
     opacity: 0.5;
