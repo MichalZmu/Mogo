@@ -167,20 +167,7 @@ html {
     margin-top: 126px !important;
     padding-left: 0px !important;
     font-size: 18px;
-    
-  
-    
     bottom: 20px;
-    
-}
-
-.down-menu li {
-    float: left;
-    margin-right: 30px;
-    width: 260px;
-    font-size: 18px;
-    
-    
 }
 
 .down-menu-one {
@@ -247,7 +234,7 @@ html {
 
 .mol{
     width: 380px !important;
-  margin-right: 15px;
+    margin-bottom: 15px;
     padding: 0px !important;
 }
 
@@ -265,7 +252,7 @@ html {
 
 .top-image{
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     top: -10px;
     right: 10px;
 
@@ -274,7 +261,7 @@ html {
 
 .top-text{
     
-    z-index: 5;
+    z-index: 2;
     position: absolute;
     top: 106px;
     left: 50%;
@@ -283,7 +270,7 @@ html {
 
 .top-icon {
     position: absolute;
-    z-index: 8;
+    z-index: 3;
     
     top: 94px;
     left: 50%;
