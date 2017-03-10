@@ -98,7 +98,8 @@ html {
 
 .uppercase-and-big {
     text-transform: uppercase;
-    font-size: 150px;
+    font-size: 9.375em;
+    font-size: 9.375em;
 }
 
 .uppercase{
@@ -164,7 +165,7 @@ html {
     color: white;
     text-decoration: none;
     list-style-type: none;
-    margin-top: 126px !important;
+    margin-top: 144px !important;
     padding-left: 0px !important;
     font-size: 18px;
     bottom: 20px;
@@ -196,20 +197,17 @@ html {
 
 
 .text-24px{
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 .text-14px{
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
 .text-72px{
-    font-size: 72px;
+    font-size: 4.5em;
 }
 
-.second-part {
-    height: 750px;
-}
 
 .what-we-do-text{
     
@@ -238,6 +236,10 @@ html {
     line-height: 1.6;
     padding-top: 45px;
     padding-bottom: 103px;
+}
+
+.gallery-margin{
+    margin-bottom: 90px;   
 }
 
 .mol{
